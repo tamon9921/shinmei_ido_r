@@ -6,7 +6,7 @@
 		"shadows": true,
 		"shadowType": 1,
 		"vr": false,
-		"toneMapping": 0,
+		"toneMapping": 3,
 		"toneMappingExposure": 1
 	},
 	"camera": {
@@ -20,7 +20,7 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [-0.03141017484122438,0,-0.9995070003989185,0,-0.020861636543967135,0.9997821177848373,0.0006555908573512344,0,0.9992889362006568,0.020871937944311855,-0.0314033220281964,0,45.76758789876777,0.955937987381163,-1.4382770079525768,1],
+			"matrix": [0.4060643046811082,0,0.9138449668263474,0,0.06898527510489688,0.9971465897464293,-0.03065340269475704,0,-0.9112371283291197,0.07548907722909297,0.40490551936791125,0,-19.96162759888211,1.6536692816649037,8.869890107720606,1],
 			"up": [0,1,0],
 			"fov": 50,
 			"zoom": 1,
@@ -215,7 +215,7 @@
 							"near": 0.1,
 							"far": 100,
 							"focus": 10,
-							"aspect": 1.1914648212226067,
+							"aspect": 1.005787037037037,
 							"filmGauge": 35,
 							"filmOffset": 0
 						}]
@@ -263,7 +263,7 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-1.9261605866216982,0,0,1],
 					"up": [0,1,0],
 					"color": 16776432,
-					"intensity": 1
+					"intensity": 0.3
 				}]
 		}
 	},
@@ -279,5 +279,5 @@
 				"source": "function update( event ) {\n\n\tvar time = event.time * 0.0001;\n\n\tthis.position.x = Math.sin( time ) * 2;\n\tthis.position.y = Math.cos( time ) * 0;\n\tthis.position.z = Math.cos( time ) * 2;\n\tthis.lookAt( scene.position );\n\n}"
 			}]
 	},
-	"environment": "ModelViewer"
+	"environment": null
 }
