@@ -109,7 +109,7 @@
 				"type": "MeshStandardMaterial",
 				"color": 16777215,
 				"roughness": 1,
-				"metalness": 0,
+				"metalness": 0.4,
 				"emissive": 0,
 				"map": "0c5b4d77-cac9-4739-9dd1-cac10449a67a",
 				"envMapIntensity": 1,
@@ -121,7 +121,7 @@
 				"type": "MeshStandardMaterial",
 				"color": 16777215,
 				"roughness": 1,
-				"metalness": 0,
+				"metalness": 0.4,
 				"emissive": 0,
 				"map": "461632e2-21cf-4a9a-8859-169c20610896",
 				"envMapIntensity": 1,
@@ -271,7 +271,7 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,10,0,1],
 					"up": [0,1,0],
 					"color": 16511711,
-					"intensity": 1,
+					"intensity": 0.78,
 					"groundColor": 16512746
 				}]
 		}
