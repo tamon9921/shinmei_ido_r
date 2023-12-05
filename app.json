@@ -4,10 +4,10 @@
 	},
 	"project": {
 		"shadows": true,
-		"shadowType": 2,
+		"shadowType": 1,
 		"vr": false,
 		"toneMapping": 3,
-		"toneMappingExposure": 10
+		"toneMappingExposure": 1
 	},
 	"camera": {
 		"metadata": {
@@ -20,7 +20,7 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [0.4129725079889107,1.734724207101883e-18,-0.9107439544544608,0,-0.010792071282674481,0.999929749766018,-0.0048936133171159375,0,0.910679710741282,0.01184973800969283,0.41294337698318273,0,19.94941676817774,0.2595812329635151,9.045968008215128,1],
+			"matrix": [0.037111319258118045,-6.938896828407531e-18,-0.9993115594812871,0,-0.03236890812094554,0.9994752270620131,-0.0012020804441976423,0,0.998786858564714,0.03239122546353045,0.03709183350010274,0,15.321655219986448,0.4968899865365055,0.5689985600955901,1],
 			"up": [0,1,0],
 			"fov": 50,
 			"zoom": 1,
@@ -195,8 +195,6 @@
 					"uuid": "B7CBBC6F-EC26-49B5-8D0D-67D9C535924B",
 					"type": "Group",
 					"name": "Dummy",
-					"castShadow": true,
-					"receiveShadow": true,
 					"layers": 1,
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 					"up": [0,1,0],
@@ -205,8 +203,6 @@
 							"uuid": "60B69C58-4201-43FD-815E-AD2EDFBBD0CE",
 							"type": "PerspectiveCamera",
 							"name": "PerspectiveCamera",
-							"castShadow": true,
-							"receiveShadow": true,
 							"layers": 1,
 							"matrix": [-0.059306373575961704,-2.1555890991094317e-19,-0.9982398279237635,0,-7.262936056883892e-18,1,2.1555890991094353e-19,0,0.9982398279237635,7.26293605688388e-18,-0.059306373575961704,0,30,0,0,1],
 							"up": [0,1,0],
@@ -224,8 +220,6 @@
 					"uuid": "5f2fbccf-80ee-4a68-8ec7-1820cfc9e6a0",
 					"type": "Group",
 					"name": "1102_ido3.glb",
-					"castShadow": true,
-					"receiveShadow": true,
 					"layers": 1,
 					"matrix": [0.3303655750639831,0.9354849683772531,-0.12540518630763753,0,-0.8883262609113516,0.26327397602113084,-0.3762489438194922,0,-0.3189593092980699,0.23570041894369775,0.917992522584941,0,-5.545951545148627,2.895,13.339558713984127,1],
 					"up": [0,1,0],
@@ -234,8 +228,6 @@
 							"uuid": "94d7f7db-149b-4954-9d81-034115a7609e",
 							"type": "Mesh",
 							"name": "mesh_0",
-							"castShadow": true,
-							"receiveShadow": true,
 							"layers": 1,
 							"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 							"up": [0,1,0],
@@ -246,8 +238,6 @@
 							"uuid": "54dfab13-2ee5-4be1-8105-1412a3f1b122",
 							"type": "Mesh",
 							"name": "mesh_1",
-							"castShadow": true,
-							"receiveShadow": true,
 							"layers": 1,
 							"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
 							"up": [0,1,0],
@@ -263,7 +253,7 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-1.9261605866216982,0,0,1],
 					"up": [0,1,0],
 					"color": 16776432,
-					"intensity": 0.18
+					"intensity": 0.64
 				}]
 		}
 	},
@@ -279,5 +269,5 @@
 				"source": "function update( event ) {\n\n\tvar time = event.time * 0.0001;\n\n\tthis.position.x = Math.sin( time ) * 2;\n\tthis.position.y = Math.cos( time ) * 0;\n\tthis.position.z = Math.cos( time ) * 2;\n\tthis.lookAt( scene.position );\n\n}"
 			}]
 	},
-	"environment": null
+	"environment": "ModelViewer"
 }
