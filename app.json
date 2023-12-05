@@ -228,40 +228,7 @@
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,11.706837655821431,0.3834162509437,1],
 					"up": [0,1,0],
 					"color": 16644071,
-					"intensity": 0.7,
-					"groundColor": 16709868
-				},
-				{
-					"uuid": "1da03f6a-0eeb-479b-8a32-7db435db6cb5",
-					"type": "HemisphereLight",
-					"name": "HemisphereLight",
-					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,-12.353663513400413,0,1],
-					"up": [0,1,0],
-					"color": 16644071,
-					"intensity": 0.1,
-					"groundColor": 16709868
-				},
-				{
-					"uuid": "93d48891-acf1-48f6-9f53-f1d7a2d90ff0",
-					"type": "HemisphereLight",
-					"name": "HemisphereLight",
-					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-10.566159942896775,0.8725482891755606,1.6850056819671777,1],
-					"up": [0,1,0],
-					"color": 16644071,
-					"intensity": 0.1,
-					"groundColor": 16709868
-				},
-				{
-					"uuid": "b22b7a55-59c9-4196-b6fb-6c38373a5bb2",
-					"type": "HemisphereLight",
-					"name": "HemisphereLight",
-					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,11.704108709631623,1.3845368511407035,-0.6939002960854947,1],
-					"up": [0,1,0],
-					"color": 16644071,
-					"intensity": 0.1,
+					"intensity": 0.8,
 					"groundColor": 16709868
 				},
 				{
