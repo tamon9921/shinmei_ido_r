@@ -20,14 +20,14 @@
 			"type": "PerspectiveCamera",
 			"name": "Camera",
 			"layers": 1,
-			"matrix": [0.9999592977759276,0,0.009068942687784473,0,0.0046688526725152234,0.8572994699898159,-0.5147967961156156,0,-0.0077747975079864124,0.514818035204562,0.8572643277267658,0,-0.21137126297392503,13.996215102858098,23.306207456588588,1],
+			"matrix": [0.8001894410727852,-2.7755575615628914e-17,-0.599747328794071,0,-0.263994731510472,0.8979112279863449,-0.3522246561369144,0,0.5385198604790145,0.44017658576536506,0.7184990836553716,0,11.549722416313251,10.253726328605067,15.206667104995159,1],
 			"up": [0,1,0],
 			"fov": 50,
 			"zoom": 1,
-			"near": 0.1,
-			"far": 100000,
+			"near": 0.01,
+			"far": 1000,
 			"focus": 10,
-			"aspect": 1.3422897196261683,
+			"aspect": 1.6976241900647948,
 			"filmGauge": 35,
 			"filmOffset": 0
 		}
@@ -258,213 +258,61 @@
 						}]
 				},
 				{
-					"uuid": "16f303c7-4536-4aae-b442-df73d5f77a37",
-					"type": "PointLight",
-					"name": "PointLight",
+					"uuid": "cfed3c00-3dc4-4cab-90af-fe23985609c4",
+					"type": "HemisphereLight",
+					"name": "HemisphereLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,9.35081882911867,1.4698237895549169,-0.6643617438844331,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,11.706837655821431,0.3834162509437,1],
 					"up": [0,1,0],
-					"color": 16513513,
-					"intensity": 0.16,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "27f81c57-2597-45f3-814a-3ec5982c3c7a",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
+					"color": 16644071,
+					"intensity": 0.5,
+					"groundColor": 16709868
 				},
 				{
-					"uuid": "6e0a0c0c-9a6c-4f58-acd5-42e2206e1eaa",
-					"type": "PointLight",
-					"name": "PointLight",
+					"uuid": "1da03f6a-0eeb-479b-8a32-7db435db6cb5",
+					"type": "HemisphereLight",
+					"name": "HemisphereLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,9.368483952493005,0,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,-12.353663513400413,0,1],
 					"up": [0,1,0],
-					"color": 16514026,
-					"intensity": 0.1,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "14f7c3a3-70dc-4ab4-adaf-8481eaae6a40",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
+					"color": 16644071,
+					"intensity": 0.5,
+					"groundColor": 16709868
 				},
 				{
-					"uuid": "963aa0c1-e9e2-4b61-bf2f-aea0f3da8cbb",
-					"type": "PointLight",
-					"name": "PointLight",
+					"uuid": "93d48891-acf1-48f6-9f53-f1d7a2d90ff0",
+					"type": "HemisphereLight",
+					"name": "HemisphereLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,-8.799171983438987,1.7548185458714256,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-10.566159942896775,0.8725482891755606,1.6850056819671777,1],
 					"up": [0,1,0],
-					"color": 16645101,
-					"intensity": 0.06,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "16a99387-ac52-46c7-8d84-a2460c557007",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
+					"color": 16644071,
+					"intensity": 1.06,
+					"groundColor": 16709868
 				},
 				{
-					"uuid": "9898a5bf-0515-448a-8deb-79b3234ced28",
-					"type": "PointLight",
-					"name": "PointLight",
+					"uuid": "b22b7a55-59c9-4196-b6fb-6c38373a5bb2",
+					"type": "HemisphereLight",
+					"name": "HemisphereLight",
 					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-4.385821631602003,1.232743178366335,-10.135984703620235,1],
+					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,11.704108709631623,1.3845368511407035,-0.6939002960854947,1],
 					"up": [0,1,0],
-					"color": 16777215,
-					"intensity": 0.08,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "9d4dca4b-b667-4ed3-8f24-7490f51bdeb8",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
-				},
-				{
-					"uuid": "efd7bd08-a638-4203-8517-11e8b9573137",
-					"type": "PointLight",
-					"name": "PointLight",
-					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-10.582296328111836,1.3105464059407481,4.171248968102589,1],
-					"up": [0,1,0],
-					"color": 16776688,
-					"intensity": 0.12,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "5bb52f7c-cde7-4a19-97b4-ca4eef4b38a0",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
-				},
-				{
-					"uuid": "02e916e9-2c81-46b9-9581-5edb0a864a67",
-					"type": "PointLight",
-					"name": "PointLight",
-					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.0248056335804056,0.05970833619766247,2.930778049531357,1],
-					"up": [0,1,0],
-					"color": 16645101,
-					"intensity": 0.1,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "74d6dc14-2f7d-40f5-8b34-6cc74630b911",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
-				},
-				{
-					"uuid": "8944d077-b974-4fa3-89c2-f0908e55b7f4",
-					"type": "PointLight",
-					"name": "PointLight",
-					"layers": 1,
-					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,4.36924181755525,-0.48536152961463164,6.25345397262681,1],
-					"up": [0,1,0],
-					"color": 16777215,
-					"intensity": 0.08,
-					"distance": 0,
-					"decay": 0,
-					"shadow": {
-						"camera": {
-							"uuid": "95ff029e-cc06-406f-97f6-44ddc47abbd0",
-							"type": "PerspectiveCamera",
-							"layers": 1,
-							"up": [0,0,-1],
-							"fov": 90,
-							"zoom": 1,
-							"near": 0.5,
-							"far": 500,
-							"focus": 10,
-							"aspect": 1,
-							"filmGauge": 35,
-							"filmOffset": 0
-						}
-					}
+					"color": 16644071,
+					"intensity": 0.98,
+					"groundColor": 16709868
 				}]
 		}
 	},
 	"scripts": {
-		"60B69C58-4201-43FD-815E-AD2EDFBBD0CE": [
-			{
-				"name": "Player Camera",
-				"source": "player.setCamera( this );"
-			}],
 		"B7CBBC6F-EC26-49B5-8D0D-67D9C535924B": [
 			{
 				"name": "Orbit",
 				"source": "function update( event ) {\n\n\tvar time = event.time * 0.00015;\n\n\tthis.position.x = Math.sin( time ) * 1.8;\n\tthis.position.y = Math.cos( time ) * 0;\n\tthis.position.z = Math.cos( time ) * 1.8;\n\tthis.lookAt( scene.position );\n\n}"
+			}],
+		"60B69C58-4201-43FD-815E-AD2EDFBBD0CE": [
+			{
+				"name": "Player Camera",
+				"source": "player.setCamera( this );"
 			}]
 	},
 	"environment": null
