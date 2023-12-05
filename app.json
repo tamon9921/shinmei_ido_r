@@ -27,7 +27,7 @@
 			"near": 0.01,
 			"far": 1000,
 			"focus": 10,
-			"aspect": 1.6976241900647948,
+			"aspect": 1.3422897196261683,
 			"filmGauge": 35,
 			"filmOffset": 0
 		}
@@ -236,6 +236,8 @@
 					"uuid": "B7CBBC6F-EC26-49B5-8D0D-67D9C535924B",
 					"type": "Group",
 					"name": "Dummy",
+					"castShadow": true,
+					"receiveShadow": true,
 					"layers": 1,
 					"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,2.34,4,1],
 					"up": [0,1,0],
@@ -244,6 +246,8 @@
 							"uuid": "60B69C58-4201-43FD-815E-AD2EDFBBD0CE",
 							"type": "PerspectiveCamera",
 							"name": "PerspectiveCamera",
+							"castShadow": true,
+							"receiveShadow": true,
 							"layers": 1,
 							"matrix": [-0.9999451693655113,-0.010463347995800945,-0.0004202514675989203,0,-0.010471784116245466,0.9991396086517851,0.040129592080912324,0,0,0.04013179253256,-0.9991943951144451,0,0,1.38,-14.66,1],
 							"up": [0,1,0],
